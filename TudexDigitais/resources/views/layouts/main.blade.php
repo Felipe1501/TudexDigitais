@@ -19,6 +19,100 @@
     <script src="/assets/js/progressbar.min.js"></script>
 </head>
 <body>
+<header>
+        <div class="container-fluid">
+            <div class="navb-logo">
+                <img src="" alt="logoprj">
+            </div>
+            <div class="navb-items d-none d-xl-flex">
+                <div class="item">
+                    <a href="/">INÍCIO</a>
+                </div>
+                <div class="item">
+                    <a href="#about-area">SOBRE</a>
+                </div>
+                
+                <div class="item">
+                    <a href="/canal/create">VENDER CANAIS</a>
+                </div>
+               
+                <div class="item">
+                    <a href="/dashboard">MEUS CANAIS</a>
+                </div>
+                <div class="item">
+                <form action="/logout" method="POST">
+                    
+                    <a href="/logout" 
+                       class="a" 
+                        onclick="event.preventDefault();
+                        this.closest('form')
+                        .submit();">SAIR</a>
+                </div>
+                
+                <div class="item">
+                    <a href="/login">LOGIN</a>
+                </div>
+                <div class="item">
+                    <a href="/register">REGISTRAR</a>
+                </div>
+                
+            </div>
+
+
+            <div class="mobile-toggler d-lg-none" >
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class='bx bx-menu'></i>
+                </a>
+            </div>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <img src="#" alt="logovariant">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bx bx-x cancel"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-line">
+                            <i class='bx bx-home' ></i><a href="/">INÍCIO</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class='bx bx-info-circle' ></i><a href="#about-area">SOBRE</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class='bx bx-slideshow'></i><a href="/canal/create">VENDER CANAIS</a>
+                        </div>
+                        
+                        <div class="modal-line">
+                            <a href="/dashboard">MEUS CANAIS</a>
+                        </div>
+                        <div class="modal-line">
+                        <form action="/logout" method="POST">
+                        
+                        <a  href="/logout" 
+                            class="a" 
+                            onclick="event.preventDefault();
+                            this.closest('form')
+                            .submit();">SAIR</a>
+                        </div>
+                        
+                        <div class="modal-line">
+                            <a href="/login">LOGIN</a>
+                        </div>
+                        <div class="modal-line">
+                            <a href="/register">REGISTRAR</a>
+                        </div>
+                       
+                    </div>
+                    <div class="mobile-modal-footer">
+                        <a target="_blank" href="#"><i class='bx bxl-whatsapp' ></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
     @yield('content')
 <script src="/assets/js/scripts.js"></script>
 </body>
