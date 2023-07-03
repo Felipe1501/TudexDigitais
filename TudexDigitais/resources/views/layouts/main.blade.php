@@ -33,7 +33,7 @@
                 </div>
                 
                 <div class="item">
-                    <a href="/canal/create">VENDER CANAIS</a>
+                    <a href="/canals/create">VENDER CANAIS</a>
                 </div>
                
                 <div class="item">
@@ -81,7 +81,7 @@
                             <i class='bx bx-info-circle' ></i><a href="#about-area">SOBRE</a>
                         </div>
                         <div class="modal-line">
-                            <i class='bx bx-slideshow'></i><a href="/canal/create">VENDER CANAIS</a>
+                            <i class='bx bx-slideshow'></i><a href="/canals/create">VENDER CANAIS</a>
                         </div>
                         
                         <div class="modal-line">
