@@ -115,6 +115,33 @@
     </header>
     <main>
     @yield('content')
+    
+    <!-- <footer class="container-fluid text-white bg-danger">
+        <div class="row pt-5 pb-5">
+            <section>
+                
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <p>FALE CONOSCO!</p>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://api.whatsapp.com/send?phone=5513999999999&text=Quero%20saber%20mais%20sobre%20a%20Tudex!"
+                      target="_blank" class="nav-link text-white"> <i class='bx bxl-whatsapp' > </i>WHASTAPP:
+                      (13) 9 9999-9999
+                    </a>
+                  </li>
+                </ul>
+              </section> -->
+        
+              <!-- <section>
+                <a href="#" class="text-white">Voltar ao Top!</a>
+              </section> -->
+              <!-- <section>
+                <p>Copyright &copy; 2023 Dtudex CNPJ: 499228922</p>
+              </section>
+        </div>
+    </footer> -->
+    
 <script src="/assets/js/scripts.js"></script>
 </body>
 </html>

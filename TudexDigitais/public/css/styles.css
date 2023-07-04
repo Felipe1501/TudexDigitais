@@ -261,3 +261,128 @@ i{
     font-size: 14px;
 }
     
+/* sobre TUDEX */
+
+#about-area{
+    background-color: #f9f9f9;
+    margin-top: 2%;
+}
+
+#about-area .main-title{
+    margin-top: 2%;
+}
+
+.main-title{
+    color: #FC453F;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+  } */
+
+.about-title{
+    font-size: 18px;
+    color: #FC453F;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* especialidades */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .6s;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+    color: #FC453F;
+}
+
+#services-area {
+    margin-top: 5%;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #FC231E;
+    color: #FFF;
+    padding: 30px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+footer i{
+    color: #FFF;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+/* footer section{
+    text-align: center;
+}
+
+footer .nav-item i{
+    font-size: 26px;
+    color: #f9f9f9;
+} */
+
+/* Portfólio */
+
+/* .project-box {
+    margin-bottom: 30px;
+  }
+  
+  #filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  #portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  
+  #portfolio-area  .main-title{
+    margin-top: 20px;
+  }
+
+  #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #FFF;
+    border: 1px solid #FC231E;
+    background-color: #FC453F;
+  } */
