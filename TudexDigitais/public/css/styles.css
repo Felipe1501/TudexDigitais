@@ -173,3 +173,91 @@ i{
 .mobile-modal-footer i:hover{
     color: #FC453F;
 }
+
+.products{
+    padding: 120px 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    }
+    
+.product-card{
+    width: 100%;
+    max-width: 300px;
+    background-color: #FC231E;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+    
+.product-card:hover{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_img{
+    width: 100%;
+}
+    
+.card_info{
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+    
+.card_price{
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+    
+.card_title{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    font-weight: 500px;
+}
+    
+.button_addCard{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin: 12px 15px;
+    color: #0c5dd6;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff159;
+    font-size: 1.5rem;
+    background-image: url(/assets/img/cart-add-regular-24.png);
+}
+    
+.button_addCard:hover{
+    opacity: 0.5;
+}
+    
+.product-card:hover .button_addCard{
+    display: flex;
+}
+    
+#event-create-container {
+    padding: 30px
+}
+      
+#event-create-container label {
+    font-weight: bold;
+}
+      
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 14px;
+}
+    

@@ -113,6 +113,7 @@
             </div>
         </div>
     </header>
+    <main>
     @yield('content')
 <script src="/assets/js/scripts.js"></script>
 </body>
